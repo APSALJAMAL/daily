@@ -1,0 +1,25 @@
+sign up and sign in function
+
+routes/anth.js
+
+server.js
+
+postman
+
+post localhost:1000/api/v1/register
+
+body,json
+
+{
+    "email":"a@gmail.com",
+    "username":"a",
+    "password":"123"
+}
+
+
+post localhost:1000/api/v1/signin
+
+{
+    "email":"a@gmail.com",
+    "password":"123"
+}
