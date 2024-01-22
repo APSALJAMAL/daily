@@ -1,0 +1,8 @@
+configuring backend and connect mongodb
+
+
+mongodb+srv://ace:<password>@ace.w8lhec7.mongodb.net/
+
+awg
+
+  
