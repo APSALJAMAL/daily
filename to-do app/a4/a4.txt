@@ -1,0 +1,90 @@
+CRUD operation
+
+POST localhost:1000/api/v2/addTask
+
+{
+    "title":"task 1",
+    "body":"gujssdf",
+    "email":"a@gmail.com"
+}
+
+
+{
+    "list": {
+        "title": "task 1",
+        "body": "gujssdf",
+        "user": [
+            "65aea5e29500744781973134"
+        ],
+        "_id": "65af4dac15b720d09a811304",
+        "createdAt": "2024-01-23T05:25:00.425Z",
+        "updatedAt": "2024-01-23T05:25:00.425Z",
+        "__v": 0
+    }
+}
+
+
+
+PUT  localhost:1000/api/v2/updateTask/65af501ce0ce01f8bd7a823a
+
+{
+    "title":"task 2 is change to 3",
+    "body":"gujssdf",
+    "email":"a@gmail.com"
+}
+
+{
+    "message": "Task Updated"
+}
+
+
+DELETE localhost:1000/api/v2/deleteTask/65af501ce0ce01f8bd7a823a
+
+
+{
+    "message": "Task Deleted"
+}
+
+
+
+GET localhost:1000/api/v2/getTasks/65aea5e29500744781973134
+
+{
+    "list": [
+        {
+            "_id": "65af4dac15b720d09a811304",
+            "title": "task 1",
+            "body": "gujssdf",
+            "user": [
+                "65aea5e29500744781973134"
+            ],
+            "createdAt": "2024-01-23T05:25:00.425Z",
+            "updatedAt": "2024-01-23T05:25:00.425Z",
+            "__v": 0
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
